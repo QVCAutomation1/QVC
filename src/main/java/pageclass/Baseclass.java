@@ -13,7 +13,7 @@ public class Baseclass {
 		System.setProperty("webdriver.chrome.driver", "E:\\\\Study\\\\Framework\\\\chromedriver78\\\\chromedriver.exe");
 		 driver=new ChromeDriver();
 		 driver.get("http://demo.guru99.com/V4/");
-		 driver.close();
+		 driver.quit();
 		 
 	}
 
