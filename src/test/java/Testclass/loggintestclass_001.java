@@ -29,7 +29,7 @@ public class loggintestclass_001 {
 	@Test
 	public void logginclick() {
 		po.logginbtn.click();
-		System.out.println("deva");
+		System.out.println("sakthi");
 	}
 	
 }
