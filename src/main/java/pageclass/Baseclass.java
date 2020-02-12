@@ -14,11 +14,9 @@ public class Baseclass {
 		
 		System.setProperty("webdriver.chrome.driver", "E:\\\\Study\\\\Framework\\\\chromedriver78\\\\chromedriver.exe");
 		 driver=new ChromeDriver();
-<<<<<<< HEAD
+
 		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-=======
-		 thread.sleep(3000);
->>>>>>> branch 'master' of https://github.com/QVCAutomation1/QVC.git
+
 		 driver.get("http://demo.guru99.com/V4/");
 		 driver.close();
 		 
