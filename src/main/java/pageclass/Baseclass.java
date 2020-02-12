@@ -17,7 +17,7 @@ public class Baseclass {
                  
 		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-		 driver.navigate("http://demo.guru99.com/V4/");
+		 driver.navigate("http:/qvc.com");
 		 driver.close();
 		 
 	}
